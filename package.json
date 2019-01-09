@@ -1,0 +1,16 @@
+{
+  "name": "my-booking-sherpa-landing-page",
+  "version": "1.0.0",
+  "description": "Marketing Page for MyBookingSherpa.com",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MyBookingSherpa/my-booking-sherpa-marketing-page"
+  },
+  "author": "MyBookingSherpa",
+  "license": "ISC",
+  "dependencies": {}
+}
