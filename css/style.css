@@ -471,14 +471,14 @@ body {
   color: #51328f;
 }
 .navbar-default .navbar-header .navbar-brand.navbar-brand-custom {
-  width: 200px;
+  width: 260px;
   background: url('../img/logo-lt.svg') no-repeat center;
   background-size: contain;
   margin-left: 15px;
-  padding: 4px;
+  padding: 2px;
 }
 .navbar-default .navbar-header .navbar-brand.navbar-brand-custom img {
-  width: 180px;
+  width: 220px;
 }
 .navbar-default .navbar-header .navbar-toggle {
   font-weight: 700;
