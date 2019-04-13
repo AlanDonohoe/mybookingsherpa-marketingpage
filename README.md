@@ -1,2 +1,2 @@
-# BookMi.Place-Landing
-Landing page for BookMi.Place
+# MyBookingSherpa.com
+Landing page for mybookingsherpa.com
