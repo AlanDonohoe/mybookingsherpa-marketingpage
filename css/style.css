@@ -998,7 +998,7 @@ section .section-image-container .section-image {
   }
 }
 .functionality .media {
-  margin-top: 148px;
+  margin-top: 48px;
 }
 @media (max-width: 1199px) {
   .functionality .media {
@@ -1024,10 +1024,25 @@ section .section-image-container .section-image {
 }
 .functionality .media .media-left span {
   display: block;
-  width: 70px;
-  font-size: 32px;
-  line-height: 2.2em;
+  font-size: 40px;
+  line-height: 1.5em;
+  
 }
+.circle-icon {
+  box-shadow: 0px 9px 20px 0px rgba(0, 0, 0, 0.07);
+  padding: 10px 16px;
+  width: 76px;
+  height: 76px;
+  margin: 1.8rem;
+  border-radius: 50%;
+  background-color: #FFF;
+  font-size: 48px;
+  text-align: center;
+  line-height: 80px;
+  font-weight: 300;
+  transition: all 0.3s ease;
+}
+
 .functionality .media .media-left span .fa {
   color: #59c483;
 }
