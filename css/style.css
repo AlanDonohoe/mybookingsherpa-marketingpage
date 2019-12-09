@@ -801,37 +801,35 @@ header.bottom-laptop img {
 
 .box-with-step {
   position: relative;
-  padding: 0 0 0 8px; 
+  padding: 0 0 0 8px;
+  margin: 10px 0;  
 }
 .box-with-step h1 {
   color: #284285;
 }
-.box-with-step .number-behind {
-  font-size: 6rem;
-  position: absolute;
-  font-family: 'Permanent Marker', cursive;
-  z-index: -1;
-  top: -4rem;
-  left: 0rem;
-  color: #dcecf5; 
+.box-with-step .icon-behind {
+  display: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .box-with-step {
     position: relative;
-    padding: 0 0 0 4px; 
+    padding: 0 0 0 4px;
+    margin: 70px 0 80px 0; 
   }
   .box-with-step .h1 {
     color: blue;
   }
-  .box-with-step .number-behind {
+  .box-with-step .icon-behind {
     font-size: 10rem;
     position: absolute;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Nunito', sans-serif;
     z-index: -1;
-    top: -7rem;
-    left: -3rem;
-    color: #dfedf5; 
+    top: -3rem;
+    right: -2rem;
+    color: #f2f8fa; 
+    transform: scaleY(3) scaleX(0.8);
+    display: inline;
   }
 }
 
@@ -1026,8 +1024,8 @@ section .section-image-container .section-image {
   display: block;
   font-size: 40px;
   line-height: 1.5em;
-  
 }
+
 .circle-icon {
   box-shadow: 0px 9px 20px 0px rgba(0, 0, 0, 0.07);
   padding: 10px 16px;
