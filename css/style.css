@@ -817,21 +817,22 @@ header.bottom-laptop img {
 }
 
 @media (min-width: 768px) {
-.box-with-step {
-  position: relative;
-  padding: 0 0 0 4px; 
-}
-.box-with-step .h1 {
-  color: blue;
-}
-.box-with-step .number-behind {
-  font-size: 10rem;
-  position: absolute;
-  font-family: 'Permanent Marker', cursive;
-  z-index: -1;
-  top: -7rem;
-  left: -3rem;
-  color: #dfedf5; 
+  .box-with-step {
+    position: relative;
+    padding: 0 0 0 4px; 
+  }
+  .box-with-step .h1 {
+    color: blue;
+  }
+  .box-with-step .number-behind {
+    font-size: 10rem;
+    position: absolute;
+    font-family: 'Permanent Marker', cursive;
+    z-index: -1;
+    top: -7rem;
+    left: -3rem;
+    color: #dfedf5; 
+  }
 }
 
 
@@ -962,6 +963,26 @@ section .section-image-container .section-image {
 .features.features-top .media {
   text-align: center;
 }
+
+.coming-soon {
+  font-size: 34px;
+  color: #fff;
+  position: absolute;
+  top: 40%;
+  left: calc(50% - 150px);
+  width: 300px;
+  background: #ff3333;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 2em;
+  opacity: 0.9;
+}
+
+.rotate {
+  transform: rotate(-22deg);
+}
+
+
 .functionality img {
   max-width: 100%;
   display: inline-block;
