@@ -1838,7 +1838,8 @@ section.faqs .faq p {
 .start-free-trial-default .form-control {
   box-shadow: none;
   border-color: #eee;
-  height: 49px;
+  height: 44px;
+  font-size: 18px;
 }
 .captcha-position {
   padding-top: 20px;
